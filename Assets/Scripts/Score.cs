@@ -43,13 +43,9 @@ public class Score : MonoBehaviour
         {
             spriteRenderer.sprite = Score4;
         }
-        else if (spriteRenderer.sprite == Score4)
+        else
         {
-            spriteRenderer.sprite = Score5;
-        }
-        else 
-        {
-            SceneManager.LoadScene("Main menu");
+            SceneManager.LoadScene("Red Win");
         }
     }
 
@@ -71,13 +67,9 @@ public class Score : MonoBehaviour
         {
             spriteRenderer.sprite = Score4;
         }
-        else if (spriteRenderer.sprite == Score4)
-        {
-            spriteRenderer.sprite = Score5;
-        }
         else
         {
-            SceneManager.LoadScene("Main menu");
+            SceneManager.LoadScene("Blue Win");
         }
     }
     // Update is called once per frame
